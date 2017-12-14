@@ -1,3 +1,3 @@
-var recipes() {
+var recipes(object) {
   
 }
