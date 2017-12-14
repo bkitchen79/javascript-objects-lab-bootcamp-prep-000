@@ -14,7 +14,7 @@ function deleteFromObjectByKey(object, key, value) {
 }
 
 function deleteFromObjectByKey(object, key, value) {
-  var obj = {recipe: `corn`}
+  var clone = {recipe: `corn`}
   var newObj = Object.assign({}, obj)
   delete newObj.recipe
 }
